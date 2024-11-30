@@ -1,64 +1,108 @@
-
-
 body {
     margin: 0;
     padding: 0;
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; */
     height: 100vh;
-    background: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%)!important;
+    background: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%) !important;
 }
 
-h1 {padding-bottom: 15px;}
+.container {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-form {margin-bottom: 40px;text-align: center;}
+form {
+    margin-bottom: 40px;
+    text-align: center;
+}
 
-label {font-size: 24px;display: block!important;}
+label {
+    font-size: 24px;
+    display: block !important;
+    margin-top: 20px;
+}
 
 input {
     width: 100px;
-border: 2px solid #8c4736;
-font-size: 24px!important;
-color: #8c4736;
-border-radius: 5px;
-text-align: center;
-background-color:#fff1e9;
+    border: 2px solid #8c4736;
+    font-size: 24px !important;
+    color: #8c4736;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff1e9;
+   margin-bottom:20px;
 }
 
 button {
-    border:2px solid #8c4736;
+    border: 2px solid #8c4736;
     background-color: #fff1e9;
-    font-size: 24px!important;
+    font-size: 24px !important;
     padding: 0 15px;
     color: #8c4736;
-    border-radius: 5px!important;
-    margin-top: 15px!important;
+    border-radius: 5px !important;
+    margin-top: 15px !important;
 }
 
-.corAzul {color:#7ac5ff}
-.corVerde {color:#87c00f}
-.corAmarelo {color:#ffcc00}
-.corLaranja {color:#e58148}
-.corVermelho {color:#ba4439}
+.corAzul {
+    color: #7ac5ff
+}
 
-#resultado {font-size: 24px;}
+.corVerde {
+    color: #87c00f
+}
 
-#resultado, h1, label, input {color:#8c4736!important}
+.corAmarelo {
+    color: #ffcc00
+}
+
+.corLaranja {
+    color: #e58148
+}
+
+.corVermelho {
+    color: #ba4439
+}
+
+#resultado {
+    font-size: 24px;
+    text-align: center;
+}
+
+#resultado,
+h1,
+label,
+input {
+    color: #8c4736 !important
+}
+
+.container h1,
+h1 {
+    text-align: center!important;
+}
 
 #resultadoImc {
     font-size: 76px;
-    background-color: rgba(255,255,255,0.7);
+    background-color: rgba(255, 255, 255, 0.7);
     padding: 30px;
     display: none;
     margin-top: 30px;
     border-radius: 20px;
     text-shadow: 2px 2px 2px #555;
+    text-align: center;
+    width: 650px;
+    max-width: 100%;
 }
 
 #mensagem {
     width: 650px;
+    max-width: 100%;
     text-align: center;
     background-color: #fff;
     margin-top: 30px;
