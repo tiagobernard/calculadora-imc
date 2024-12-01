@@ -18,7 +18,7 @@ document.querySelector('#calcular').addEventListener("click", event => {
     resultadoImc.innerHTML = imc.toFixed(2)
 
     if (isNaN(peso) || isNaN(altura)) {
-        alert("Preencha os dois campos apenas com números.");
+        alert("Preencha os dois campos apenas com números separados por ponto ou vírgula.");
         resultado.style.display = "none"
         resultadoImc.style.display = "none"
     }
